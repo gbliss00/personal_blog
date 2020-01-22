@@ -8,4 +8,4 @@
 <p>Both web and mobile.</p>
 
 <h1>Live Demo</h1>
-<p>live site can be view <a hre="https://gbliss00.github.io/personal_blog/index.html">here</a></p>
+<p>live site can be view <a href="https://gbliss00.github.io/personal_blog/index.html" target="_blank">here</a></p>
