@@ -1,0 +1,128 @@
+/* imports styles*/
+@import "header.css"; /* add styles related to header */
+@import "footer.css"; /* add styles related to footer */
+@import "button.css"; /* add styles related to button */
+@import "typography.css"; /* adds style related to typography */
+
+body {
+  margin: auto;
+  background-color: lightgrey;
+}
+/* hero image */
+
+.hero-image-blog {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/img/hero.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* blog grid */
+
+@media (min-width: 660px) {
+  .container2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "blog author"
+      "blog subscribe";
+  }
+}
+
+.blog {
+  border-top: 5px solid #333;
+  grid-area: blog;
+  padding: 0px 60px 0px 60px;
+}
+
+.author {
+  grid-area: author;
+  padding-right: 10%;
+  border: 5px solid #333;
+  padding: 5%;
+}
+
+.subscribe {
+  grid-area: subscribe;
+}
+
+.blog img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* share icons */
+
+.share li {
+  display: inline-block;
+  padding: 15px;
+  margin-left: 5px;
+  padding-right: 5px;
+}
+
+.share h2 {
+  text-align: left;
+}
+
+.share i {
+  color: #b3b3b3;
+  font-size: 35px !important;
+  transition: all 0.5s ease;
+}
+
+.share i:hover {
+  color: black;
+}
+
+/* blockquote */
+
+.author blockquote {
+  padding: 15px;
+  background: #fafada;
+  box-shadow: 5px 10px #eee;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.author img {
+  border-radius: 50%;
+  width: 50%;
+}
+
+/* figure figcapion */
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  font-size: 16px;
+  padding: 3px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.subscribe-blog {
+  background-image: url("../assets/img/asfalt-dark.png");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #333;
+}
+
+input[type="text"],
+[type="email"] {
+  padding: 12px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  margin: 2%;
+}
+
+.container img {
+  width: 200px;
+}

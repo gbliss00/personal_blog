@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BlogPosts</title>
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="../css/blog.css" type="text/css">
+    <!-- font awesome icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <!-- goolge fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Gelasio|Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="blog-post-page">
+        <header>
+            <div class="container">
+                <div class="topnav" id="myTopnav">
+                    <a href="../index.html" class="active">
+                        <img src="../assets/img/nomadlogo.svg" alt="logo"></a>
+                    <a href="blog.html">Posts</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="container">
+                <div class="hero-image-blog">
+                    <div class="hero-text">
+                        <h1>Blog Posts</h1>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- main -->
+        <section class="container2">
+            <!-- blog block -->
+            <div class="blog">
+                <div class="title">
+                    <h1>Main Title of Post</h1>
+                    <strong>
+                        <h3><strong>POSTED NOV 8 2019</strong></h3>
+                    </strong>
+                </div>
+                <div class="description">
+                    <p class="intro-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quisquam fugit. Maiores aperiam
+                        molestiae <span class="underline">reprehenderit</span> cum iusto, sunt quis quae velit officia, eum dolores earum suscipit
+                        temporibus dicta <span class="end">nemo facere?</span></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quisquam fugit. Maiores aperiam
+                        molestiae reprehenderit cum iusto, sunt quis quae velit officia, eum dolores earum suscipit
+                        temporibus dicta nemo facere?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quisquam fugit. Maiores aperiam
+                        molestiae reprehenderit cum iusto, sunt quis quae velit officia, eum dolores earum suscipit
+                        temporibus dicta nemo facere?</p>
+
+
+                    <img src="../assets/img/mexico_post.jpg" alt="Costa Rica">
+                    <figcaption>Railay Beach – Krabi. One of my absolute favorite places in Mexico.</figcaption>
+
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A impedit ducimus neque suscipit
+                        aliquid,
+                        voluptatum fuga eaque unde voluptate reprehenderit! Deserunt eius dolorem repudiandae impedit
+                        natus
+                        similique nobis dicta aperiam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque nesciunt explicabo ad distinctio
+                        ab
+                        rerum facilis repellendus, nihil necessitatibus veritatis expedita doloribus optio sint
+                        temporibus
+                        perspiciatis, sapiente incidunt illo enim!</p>
+
+                </div>
+                <div class="share">
+                    <h3><strong>share now</strong></h3>
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                    </li>
+
+                    </ul>
+                </div>
+                <div class="navigation-buttons">
+                    <button class="btn"><i class="fas fa-arrow-left"></i>&nbsp; prev post</button class="btn">
+                    <button class="btn">next post <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <!-- author and subscribe block -->
+
+            <div class="author">
+                <figure>
+                    <img src="../assets/img/avatar.png" alt="">
+                </figure>
+                <h1>Digital Nomad Member</h1><br>
+                <h3><strong>Web Designer & Nomader</strong></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga nostrum iure placeat minus
+                    reiciendis, numquam quia a aliquid perspiciatis voluptatibus soluta ipsa animi molestiae sunt nihil
+                    explicabo itaque inventore!</p>
+                <blockquote>
+                    <p>The secret of getting ahead is getting started.</p>
+                    <p>—Mark Twain</p>
+                </blockquote>
+            </div>
+
+            <section class="subscribe-blog">
+                <h2>Subscribe to the Blog</h2>
+                <h3>Sign up for Digital Nomad Now</h3>
+                <input type="text" placeholder="your name" />
+                <input type="email" placeholder="your email" />
+                <label>
+                    <input type="checkbox" value="" />
+                    <ins>I've read the terms & conditions</ins>
+                </label>
+                <br><button class="btn subs-btn">Subscribe<i class="fas fa-paper-plane"></i></button>
+            </section>
+
+        </section> <!-- end of container -->
+
+        <!-- footer -->
+
+        <div class="footer">
+            <footer>
+                <ul>
+                    <li><i class="far fa-copyright"></i>Nomad Life 2020</li>
+                    <li><i class="fas fa-envelope"></i>info@nomadlife.com</li>
+                    <li><i class="fas fa-mobile"></i>+1-999-999</li>
+                    <li><i class="fas fa-map-marker-alt"></i>find me</li>
+                </ul>
+            </footer>
+        </div>
+
+    </div> <!-- end of blog grid -->
+
+    <script>
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }   
+    </script>
+
+
+</body>
+
+</html>

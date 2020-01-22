@@ -1,0 +1,35 @@
+footer {
+  font-family: 'Open Sans', sans-serif;
+  padding: 2em; 
+  background-color: #1e1f1c;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url("../assets/img/asfalt-dark.png");
+  height: auto;
+}
+
+footer ul {
+  display: block;
+  padding: 45px 20px;
+  color: white;
+  margin: 0px 0px 0px 0px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li i {
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 600px) {
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer ul li {
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+}
