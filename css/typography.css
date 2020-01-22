@@ -89,7 +89,7 @@ p {
 }
 
 .author blockquote {
-  color: darkblue;  
+  color: #333;  
   font-weight: bold; 
   font-style: italic; 
 }
