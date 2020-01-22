@@ -6,3 +6,6 @@
 
 <h1>Compatibility</h1>
 <p>Both web and mobile.</p>
+
+<h1>Live Demo</h1>
+<p>live site can be view <a hre="https://gbliss00.github.io/personal_blog/index.html">here</a></p>
